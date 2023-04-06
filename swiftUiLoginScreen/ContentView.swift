@@ -10,13 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+            //create a app which can make a login and if the passowrd matches it will take you to the next screen
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
         }
         .padding()
     }
+        
 }
 
 struct ContentView_Previews: PreviewProvider {
